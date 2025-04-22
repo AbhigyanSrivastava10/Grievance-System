@@ -1,0 +1,47 @@
+.role-selection-container {
+  background-image: url('/public/images.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-card {
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.role-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.role-button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.role-button.citizen {
+  background-color: #007bff;
+  color: white;
+}
+
+.role-button.employee {
+  background-color: #28a745;
+  color: white;
+}
+
+.role-button:hover {
+  opacity: 0.9;
+}

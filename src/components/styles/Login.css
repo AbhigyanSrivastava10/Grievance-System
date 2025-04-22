@@ -1,0 +1,112 @@
+.login-container {
+    background-image: url('/public/images.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #374151;
+    margin-bottom: 1rem;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 12px;
+    margin-left: -9px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.2s ease;
+  }
+  
+  .login-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+  
+  .login-button {
+    background: #3b82f6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #2563eb;
+  }
+  
+  .register-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 1rem;
+  }
+  
+  .register-text a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .register-text a:hover {
+    text-decoration: underline;
+  }
+
+  .login-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .login-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .login-select option {
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+  }
+  
+  
